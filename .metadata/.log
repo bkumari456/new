@@ -2000,3 +2000,399 @@ Caused by: java.lang.StackOverflowError
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:59:27.002
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RHEbvFCS => OK
+!SESSION 2019-04-10 13:08:36.729 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-10 13:08:58.811
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-10 13:09:01.304
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-10 13:09:01.304
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25e95af1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4fa8297b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-10 13:09:34.416
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kbanoth.EAD'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:09:45.227
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:09:45.232
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@45649467[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:09:45.237
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:09:46.180
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:04.687
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.msDEvWwZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:04.691
+!MESSAGE subscribing to classpath changes: sts4.classpath.msDEvWwZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:04.696
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:04.700
+!MESSAGE subsribers = [sts4.classpath.msDEvWwZ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:04.703
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.076
+!MESSAGE project SpringWebMvcApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.081
+!MESSAGE project DemoSpring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.084
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.088
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.msDEvWwZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.108
+!MESSAGE Preparing classpath changed notification SpringWebMvcApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.113
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.284
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.288
+!MESSAGE executing callback sts4.classpath.msDEvWwZ SpringWebMvcApp false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.806
+!MESSAGE executing callback sts4.classpath.msDEvWwZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.815
+!MESSAGE Preparing classpath changed notification DemoSpring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.819
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.890
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:05.893
+!MESSAGE executing callback sts4.classpath.msDEvWwZ DemoSpring false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 13:10:06.700
+!MESSAGE executing callback sts4.classpath.msDEvWwZ SUCCESS [done]
+!SESSION 2019-04-10 17:03:09.627 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-10 17:03:25.133
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-10 17:03:27.592
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-10 17:03:27.592
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65b73689,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2047adea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:03:39.359
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:03:39.364
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@40625ac6[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:03:39.369
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:03:39.650
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-10 17:03:47.669
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kbanoth.EAD'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-04-10 17:03:57.385
+!MESSAGE LanguageServer not initialized after 10s
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilities(LanguageServerWrapper.java:603)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$11(LanguageServiceAccessor.java:472)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:473)
+	at org.eclipse.lsp4e.operations.folding.LSPFoldingReconcilingStrategy.reconcile(LSPFoldingReconcilingStrategy.java:121)
+	at org.eclipse.lsp4e.operations.folding.LSPFoldingReconcilingStrategy.initialReconcile(LSPFoldingReconcilingStrategy.java:332)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:98)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.039
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pEiBhOoA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.044
+!MESSAGE subscribing to classpath changes: sts4.classpath.pEiBhOoA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.053
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.057
+!MESSAGE subsribers = [sts4.classpath.pEiBhOoA]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.061
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.434
+!MESSAGE project SpringWebMvcApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.441
+!MESSAGE project DemoSpring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.445
+!MESSAGE Preparing classpath changed notification SpringWebMvcApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.449
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.452
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.455
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pEiBhOoA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.570
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:00.574
+!MESSAGE executing callback sts4.classpath.pEiBhOoA SpringWebMvcApp false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:01.263
+!MESSAGE executing callback sts4.classpath.pEiBhOoA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:01.267
+!MESSAGE Preparing classpath changed notification DemoSpring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:01.272
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:01.383
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:01.386
+!MESSAGE executing callback sts4.classpath.pEiBhOoA DemoSpring false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:04:02.091
+!MESSAGE executing callback sts4.classpath.pEiBhOoA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:07:01.235
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pEiBhOoA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:07:01.238
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pEiBhOoA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:07:01.241
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-10 17:07:01.244
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pEiBhOoA => OK
+!SESSION 2019-04-12 12:24:12.536 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-12 12:24:34.557
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-12 12:24:36.655
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-12 12:24:36.655
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@795faad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17ae13d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:24:47.361
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:24:47.364
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@13f10967[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:24:47.368
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:24:47.520
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-12 12:24:53.020
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kbanoth.EAD'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:04.908
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aIFApYBs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:04.913
+!MESSAGE subscribing to classpath changes: sts4.classpath.aIFApYBs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:04.919
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:04.924
+!MESSAGE subsribers = [sts4.classpath.aIFApYBs]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:04.927
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.055
+!MESSAGE project SpringWebMvcApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.060
+!MESSAGE project DemoSpring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.063
+!MESSAGE Preparing classpath changed notification SpringWebMvcApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.066
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.069
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.074
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aIFApYBs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.166
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.169
+!MESSAGE executing callback sts4.classpath.aIFApYBs SpringWebMvcApp false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.533
+!MESSAGE executing callback sts4.classpath.aIFApYBs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.536
+!MESSAGE Preparing classpath changed notification DemoSpring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.539
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.588
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:05.591
+!MESSAGE executing callback sts4.classpath.aIFApYBs DemoSpring false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:07.597
+!MESSAGE executing callback sts4.classpath.aIFApYBs FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-04-12 12:25:07.600
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:53.935
+!MESSAGE Preparing classpath changed notification DemoSpring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:53.938
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:53.986
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:53.989
+!MESSAGE executing callback sts4.classpath.aIFApYBs DemoSpring false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:54.687
+!MESSAGE executing callback sts4.classpath.aIFApYBs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:54.691
+!MESSAGE Preparing classpath changed notification SpringWebMvcApp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:54.695
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:54.756
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:54.760
+!MESSAGE executing callback sts4.classpath.aIFApYBs SpringWebMvcApp false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-12 12:25:54.835
+!MESSAGE executing callback sts4.classpath.aIFApYBs SUCCESS [done]
